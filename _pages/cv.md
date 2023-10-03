@@ -15,6 +15,11 @@ Education
 
 Work experience
 ======
+* Fall 2022 - Present: Sofware Engineer
+  * Appian Corperation (Maclean, VA)
+  * Working in: Site Reliability, Observability, Infrastructure Engineering/DevOps
+  * Skills: 
+
 * Fall 2020: Research Assistant
   * Github University
   * Duties included: Tagging issues
