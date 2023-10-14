@@ -37,12 +37,22 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+* Java
+* MATLAB
+* R
+* C
+* Terraform
+* CI/CD
+* DevOps
+* Site Reliability Engineering
+
+Expereince Using:
+===============
+* Jupyter Notebook
+* HuggingFace
+* Kubernetes
+* GitHub/Gitlab
   
 Teaching
 ======
@@ -50,4 +60,5 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Philanthropy Chair of Dartmouth Women's Rugby Team (2 years)
+  * Oversaw Dartmouth Women's Rugby team philanthropic efforts throughout the school year, orgnaised events for Women in Sports day, and organised a chartiable 5k by partering with [Positive Tracks](https://www.positivetracks.org/) and [Headrest](https://headrest.org/) in the Upper Valley.
