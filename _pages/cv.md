@@ -37,15 +37,10 @@ Work experience
   
 Skills
 ======
-* Python
-* Java
-* MATLAB
-* R
-* C
-* Terraform
-* CI/CD
-* DevOps
-* Site Reliability Engineering
+* Languages:
+  * Python, Java, C, R, MatLab, Stata 
+* Tools/Platform experience:
+  * HuggingFace, Jupyter Notebook, Kubernetes, AWS, Terraform, Helm
 
 Expereince Using:
 ===============
@@ -54,6 +49,10 @@ Expereince Using:
 * Kubernetes
 * GitHub/Gitlab
   
+Relevant Coursework:
+=================
+
+
 Teaching
 ======
 * Fall-Winter-Spring 2019: Academic Peer Tutor for Computer Science 

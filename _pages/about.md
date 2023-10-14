@@ -29,9 +29,10 @@ Contact
 
 I'm always down to chat about aligning interests or opportunties. You can reach out to me via [email](mailto:skorb9@gmail.com).
 
+
 Miscellaneous Get-to-know
 ==========
-Thanks for making it this far. Outside of the aformentioned interests my other hobbies include staking out new coffee shops, playing rugby (I played in college and, knees willing, still play today), watching bad reality tv, and humbling myself with the NYT crossword. I come from the great state of [New Jersey](https://twitter.com/NJGov?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), and I'm a Liverpool fan. 
+Thanks for making it this far. Outside of the aformentioned interests my other hobbies include staking out new coffee shops, playing rugby (I played in college and, knees willing, still play today), watching bad reality tv, and humbling myself with the NYT crossword. I hail from the great state of [New Jersey](https://twitter.com/NJGov?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), but I've lived in a few different states and in Europe. I'm a Liverpool fan. 
 
 
 
