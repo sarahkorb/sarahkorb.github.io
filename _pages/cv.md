@@ -16,7 +16,7 @@ Education
 Work experience
 ======
 * Fall 2022 - Present: Sofware Engineer
-  * Appian Corperation (Maclean, VA)
+  * Appian Corperation (Mclean, VA)
   * Working in: Site Reliability, Observability, Infrastructure Engineering/DevOps
   * Skills: 
 
@@ -40,14 +40,7 @@ Skills
 * Languages:
   * Python, Java, C, R, MatLab, Stata 
 * Tools/Platform experience:
-  * HuggingFace, Jupyter Notebook, Kubernetes, AWS, Terraform, Helm
-
-Expereince Using:
-===============
-* Jupyter Notebook
-* HuggingFace
-* Kubernetes
-* GitHub/Gitlab
+  * HuggingFace, Jupyter Notebook, Kubernetes, AWS, Terraform, Helm, Gitlab, Github, CI/CD
   
 Relevant Coursework:
 =================
