@@ -20,10 +20,10 @@ Work experience
   * Working in: Site Reliability, Observability, Infrastructure Engineering/DevOps
   * Skills: 
 
-* Fall 2020: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2022: Research Assistant
+  * Dartmouth College
+  * Duties included: Merging pull requests
+  * Supervisor: Professor Hub
 
 * Spring 2021: Research Assistant
   * Github University
@@ -44,7 +44,13 @@ Skills
   
 Relevant Coursework:
 =================
-
+* Object Oriented Programming
+* Discrete Mathematics
+* Algorithms
+* Software Design and Implementation
+* Machine Learning |  Machine Learning in Healthcare
+* Aritificial Intelligence 
+* Digital Electronics
 
 Teaching
 ======
