@@ -9,15 +9,17 @@ redirect_from:
 
 {% include base_path %}
 
+[Download CV](/images/SarahKorbResume.pdf)
+
 Education
 ======
 * B.A. in Computer Science and Economics, Dartmouth College, 2022
 * Extracurriculars:
-  * Member of 2x D1 National Champions Dartmouth Women's Rugby team from 2018-2022, Dartmouth Women in Computer Science, Dartmouth DIFUSE projectm, Dartmouth A-capella 
+  * Member of 2x D1 National Champions Dartmouth Women's Rugby team from 2018-2022, Dartmouth Women in Computer Science, Dartmouth DIFUSE project (NSF funded), Dartmouth A-capella 
 
 Work experience
 ======
-* Fall 2022 - Present: Sofware Engineer
+* Fall 2022 - Present: Software Engineer
   * Appian Corperation (Mclean, VA)
   * Working in: Site Reliability, Observability, Infrastructure Engineering/DevOps
   * Skills: Kubernetes, AWS, Terraform, Helm, Gitlab, CI/CD
@@ -37,7 +39,7 @@ Work experience
   * Creating R modules in Jupyter notebooks to introduce students to basic functional R commands with statistical context; added dynamic functionality to provide experience to novice students and challenge students with experience in R.
   * Skills: R, Jupyter Notebook
 
-* Fall + Winter 2020: Software Engineer Intern
+* Fall 2020 - Winter 2021: Software Engineer Intern
   * WebSensing LLC (Virtual)
   * Writing code in C to create a parser which checks if input follows a specific grammar. Implemented parser rules in hardware to protect against Zero-Day attacks.
   * Skills: C, Linux, XML 
