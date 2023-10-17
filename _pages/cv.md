@@ -57,7 +57,7 @@ Relevant Coursework:
 * Discrete Mathematics
 * Algorithms
 * Software Design and Implementation
-* Machine Learning |  Machine Learning in Healthcare
+* Machine Learning, Machine Learning in Healthcare
 * Aritificial Intelligence 
 * Digital Electronics
 * Human-Computer Interaction
