@@ -20,9 +20,9 @@ Experience
 ==========
 Read more about my experience on my [CV](/cv/)
 
-Blog
+<!-- Blog
 =====
-Sometimes I like to write about new things happening in the AI sphere, sometimes I like to write about internet culture, and sometimes I just like to write about random thoughts. You can check them all out on my [blog](www.example.com)
+Sometimes I like to write about new things happening in the AI sphere, sometimes I like to write about internet culture, and sometimes I just like to write about random thoughts. You can check them all out on my [blog](www.example.com) -->
 
 Contact
 ======
