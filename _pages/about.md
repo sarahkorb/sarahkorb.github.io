@@ -14,7 +14,7 @@ As for my personal interests, I'm fascinated by Artifical intelligance and Machi
 
 Projects
 ==========
-Check out my [Projects](/publications/) page to see some things I've worked on, and some current personal projects!
+Check out my [Projects](/portfolio/) page to see some things I've worked on, and some current personal projects!
 
 Experience
 ==========
