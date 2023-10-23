@@ -3,9 +3,11 @@ title: "Keyboard to Morse Code Translator"
 excerpt: "Translates keyboard input to Morse code using a FPGA to display message <br/><img src='/images/FPGA.jpg' width='400' height='500'>"
 collection: portfolio
 ---
-Dartmeet is a location-centered social media platform that displays students and alumni. Inspired by the difficulties finding connections during the pandemic,
-Dartmeet allowed Dartmouth students and alumni to find eachother on and off campus, pursue friendhsips, and share interests and contact information. 
-Dartmeet was designed using Figma and built with React Native. This was a project for a Human Centered Design class.
+This Morse code translator was a project for a Digital Electronics course. The user can input a message on the computer keyboard
+and then the message is displayed in Morse code via a flashing light on the FPGA. Each ASCII encoded character from the message is received as a serial stream, 
+stored in a first-in-first-out queue, and then a lookup table is used to output the correct morse code. More details on implementation can be 
+found in the project report below. 
+
 
 <br/><video title="Demo" width="400" height="350" controls>
     <source src="/images/ENGS31-demo.mp4">
