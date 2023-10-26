@@ -10,6 +10,8 @@ She also happens to be one of my favorite artists.
 
 I leverage [aitextgen](https://github.com/minimaxir/aitextgen) to fine tune a mini variant of GPT-2 on a dataset of 43 if her songs, web-scraped using `BeautifulSoup`.
 
+[Github](https://github.com/sarahkorb/PycharmProjects/tree/main/PhoebeLyricGenerator)
+
 ## Credits
 
 I used the following tutorials/examples to inform this project:
