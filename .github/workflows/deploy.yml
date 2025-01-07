@@ -3,33 +3,32 @@ name: Deploy Jekyll site to GitHub Pages
 on:
   push:
     branches:
-      - main  # This will trigger the workflow when changes are pushed to the 'main' branch
+      - main  # Trigger the workflow on pushes to 'main' branch
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout the repository
+        uses: actions/checkout@v2
 
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.1.2'  # Use the Ruby version compatible with Jekyll
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1.2'  # Ensure it matches your local Ruby version
 
-    - name: Install dependencies
-      run: |
-        gem install bundler
-        bundle install
+      - name: Install dependencies
+        run: |
+          gem install bundler  # Install Bundler if not already installed
+          bundle install        # Install your gems using Bundler
 
-    - name: Build the Jekyll site
-      run: |
-        bundle exec jekyll build
+      - name: Build the site
+        run: |
+          bundle exec jekyll build  # Build the site with Jekyll
 
-    - name: Deploy to GitHub Pages
-      uses: jamesIves/github-pages-deploy-action@v4
-      with:
-        branch: gh-pages  # The branch where your built site will be pushed
-        folder: _site     # The folder where the built site is located (default: _site)
-
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site  # Location of the generated static site
+          publish_branch: main  # Deploy to the 'main' branch
