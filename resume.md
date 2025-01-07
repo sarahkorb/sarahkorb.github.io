@@ -3,11 +3,7 @@ layout: page
 title: Resume
 permalink: /resume/
 ---
-
-<iframe src="/assets/Sarah_Korb_Resume.pdf" width="100%" height="600px">
-  This browser does not support PDFs. Please download the PDF to view it: 
-  <a href="/assets/Sarah_Korb_Resume.pdf">Download PDF</a>.
-</iframe>
+If you would like a pdf of my Resume, please email me at sbk2176@columbia.edu. 
 
 ### Education
 * M.S. in Computer Science (ML concentration), Columbia University, expected Fall 2025

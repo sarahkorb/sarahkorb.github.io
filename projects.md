@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-Here are some of the projects I’ve worked on:
+Here are some of the projects I’ve worked on! As some of these were for classes, I ask you to kindly not plagerize or download! :
 
 <div class="grid-container">
   {% for project in site.projects %}
