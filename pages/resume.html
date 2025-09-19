@@ -3,8 +3,16 @@
         <h1 class="resume-name">SARAH KORB</h1>
         <div class="contact-info">
             <span class="contact-item">
+                <span class="contact-icon">📞</span>
+                (475)-777-6960
+            </span>
+            <span class="contact-item">
                 <span class="contact-icon">✉️</span>
                 sbk2176@columbia.edu
+            </span>
+            <span class="contact-item">
+                <span class="contact-icon">🌐</span>
+                sarahkorb.github.io
             </span>
             <span class="contact-item">
                 <span class="contact-icon">💼</span>
@@ -15,13 +23,20 @@
 
     <section class="resume-section">
         <h2 class="section-title">Education</h2>
-        <div class="education-item">
-            <div class="education-content">
+        <div class="education-entry">
+            <div class="education-header">
                 <h3 class="institution-name">Columbia University</h3>
-                <h4 class="degree">M.S. in Computer Science (Machine Learning concentration)</h4>
-                <h3 class="institution-name">Dartmouth College</h3>
-                <h4 class="degree">B.A. in Computer Science, Economics (Cum Laude, Academic Honors 2018-2019, 2021-2022)</h4>
+                <span class="education-date">Expected Dec 2025</span>
             </div>
+            <p class="degree">M.S. in Computer Science (Machine Learning concentration)</p>
+        </div>
+        
+        <div class="education-entry">
+            <div class="education-header">
+                <h3 class="institution-name">Dartmouth College</h3>
+                <span class="education-date">Aug 2018 - Jun 2022</span>
+            </div>
+            <p class="degree">B.A. in Computer Science, Economics (Cum Laude, Academic Honors 2018-2019, 2021-2022)</p>
         </div>
         
         <div class="coursework">
@@ -39,287 +54,189 @@
     <section class="resume-section">
         <h2 class="section-title">Work Experience</h2>
         
-        <div class="job-item">
-            <div class="job-header" onclick="toggleJobDetails('alphaquest')">
-                <div class="job-title-section">
-                    <h3 class="company-name">AlphaQuest (Alternative Asset Management Firm)</h3>
-                    <h4 class="position">AI Engineer Intern/AI Engineer</h4>
-                    <span class="location">New York, NY</span>
-                </div>
-                <div class="job-meta">
-                    <span class="date">June 2025 - Present</span>
-                    <span class="dropdown-arrow" id="arrow-alphaquest">▼</span>
-                </div>
+        <div class="experience-entry">
+            <div class="experience-header">
+                <h3 class="company-name">AlphaQuest (Alternative Asset Management Firm)</h3>
+                <span class="experience-date">June 2025 - Present</span>
             </div>
-            <div class="job-description" id="details-alphaquest">
-                <ul>
-                    <li>Designed and implemented an internal RAG-based chatbot and dashboard using CRM data and financial performance data to enhance capital development efforts and optimize investor relations insights</li>
-                    <li>Developed an AI platform for generating competitor analysis research papers by integrating internal and competitor data, leveraging a RAG-based framework</li>
-                    <li>Applied expository research to prototype a penalized neural network method for variable selection, aimed at improving portfolio optimization models for the firm's research team</li>
-                    <li>Delivered monthly demos and updates to senior leadership, including the C-suite and partners, providing insights into project progress and future directions</li>
-                </ul>
-            </div>
+            <h4 class="position">AI Engineer Intern/AI Engineer</h4>
+            <p class="location">New York, NY</p>
+            <ul class="experience-details">
+                <li>Designed and implemented an internal RAG-based chatbot and dashboard using CRM data and financial performance data to enhance capital development efforts and optimize investor relations insights</li>
+                <li>Developed an AI platform for generating competitor analysis research papers by integrating internal and competitor data, leveraging a RAG-based framework</li>
+                <li>Applied expository research to prototype a penalized neural network method for variable selection, aimed at improving portfolio optimization models for the firm's research team</li>
+                <li>Delivered monthly demos and updates to senior leadership, including the C-suite and partners, providing insights into project progress and future directions</li>
+            </ul>
         </div>
 
-        <div class="job-item">
-            <div class="job-header" onclick="toggleJobDetails('inspirit')">
-                <div class="job-title-section">
-                    <h3 class="company-name">Inspirit AI</h3>
-                    <h4 class="position">Machine Learning Instructor</h4>
-                    <span class="location">New York, NY</span>
-                </div>
-                <div class="job-meta">
-                    <span class="date">June 2025 - Present</span>
-                    <span class="dropdown-arrow" id="arrow-inspirit">▼</span>
-                </div>
+        <div class="experience-entry">
+            <div class="experience-header">
+                <h3 class="company-name">Inspirit AI</h3>
+                <span class="experience-date">June 2025 - Present</span>
             </div>
-            <div class="job-description" id="details-inspirit">
-                <ul>
-                    <li>Taught a group of 8 students via weekly meetings the fundamentals of machine learning, including supervised and unsupervised learning, data preprocessing, and model evaluation</li>
-                    <li>Guided students through hands-on coding exercises in Python using libraries such as NumPy, Pandas, and scikit-learn</li>
-                    <li>Led a team of 5 students in completing a long-term machine learning project on optimizing player selection using Moneyball-inspired techniques, involving feature engineering, regression modeling, and performance evaluation</li>
-                </ul>
-            </div>
+            <h4 class="position">Machine Learning Instructor</h4>
+            <p class="location">New York, NY</p>
+            <ul class="experience-details">
+                <li>Taught a group of 8 students via weekly meetings the fundamentals of machine learning, including supervised and unsupervised learning, data preprocessing, and model evaluation</li>
+                <li>Guided students through hands-on coding exercises in Python using libraries such as NumPy, Pandas, and scikit-learn</li>
+                <li>Led a team of 5 students in completing a long-term machine learning project on optimizing player selection using Moneyball-inspired techniques, involving feature engineering, regression modeling, and performance evaluation</li>
+            </ul>
         </div>
 
-        <div class="job-item">
-            <div class="job-header" onclick="toggleJobDetails('appian-se')">
-                <div class="job-title-section">
-                    <h3 class="company-name">Appian</h3>
-                    <h4 class="position">Software Engineer/Software Engineer II</h4>
-                    <span class="location">McLean, VA</span>
-                </div>
-                <div class="job-meta">
-                    <span class="date">Sep 2022 - Aug 2024</span>
-                    <span class="dropdown-arrow" id="arrow-appian-se">▼</span>
-                </div>
+        <div class="experience-entry">
+            <div class="experience-header">
+                <h3 class="company-name">Appian</h3>
+                <span class="experience-date">Sep 2022 - Aug 2024</span>
             </div>
-            <div class="job-description" id="details-appian-se">
-                <ul>
-                    <li>Built an observability platform for collecting metrics, logs, and distributed traces across 22 AWS regions, processing 15TB of log data weekly</li>
-                    <li>Reduced AWS costs by 15% through strategic infrastructure monitoring</li>
-                    <li>Architected a SOC 2 compliant, time-boxed logging solution for engineers to access sensitive site logs</li>
-                </ul>
-            </div>
+            <h4 class="position">Software Engineer/Software Engineer II</h4>
+            <p class="location">McLean, VA</p>
+            <ul class="experience-details">
+                <li>Built an observability platform for collecting metrics, logs, and distributed traces across 22 AWS regions, processing 15TB of log data weekly</li>
+                <li>Reduced AWS costs by 15% through strategic infrastructure monitoring</li>
+                <li>Architected a SOC 2 compliant, time-boxed logging solution for engineers to access sensitive site logs</li>
+            </ul>
         </div>
 
-        <div class="job-item">
-            <div class="job-header" onclick="toggleJobDetails('appian-intern')">
-                <div class="job-title-section">
-                    <h3 class="company-name">Appian</h3>
-                    <h4 class="position">Software Engineering Intern</h4>
-                    <span class="location">McLean, VA</span>
-                </div>
-                <div class="job-meta">
-                    <span class="date">Jun 2021 - Aug 2021</span>
-                    <span class="dropdown-arrow" id="arrow-appian-intern">▼</span>
-                </div>
+        <div class="experience-entry">
+            <div class="experience-header">
+                <h3 class="company-name">Appian</h3>
+                <span class="experience-date">Jun 2021 - Aug 2021</span>
             </div>
-            <div class="job-description" id="details-appian-intern">
-                <ul>
-                    <li>Developed programs in Java to perform routine actions in customer applications on Appian's Robotic Process Automation Team</li>
-                    <li>Enhanced Appian's UI editor by configuring rich text features during an intern hackathon project</li>
-                </ul>
-            </div>
+            <h4 class="position">Software Engineering Intern</h4>
+            <p class="location">McLean, VA</p>
+            <ul class="experience-details">
+                <li>Developed programs in Java to perform routine actions in customer applications on Appian's Robotic Process Automation Team</li>
+                <li>Enhanced Appian's UI editor by configuring rich text features during an intern hackathon project</li>
+            </ul>
         </div>
 
-        <div class="job-item">
-            <div class="job-header" onclick="toggleJobDetails('difuse')">
-                <div class="job-title-section">
-                    <h3 class="company-name">Dartmouth DIFUSE (NSF-funded Project)</h3>
-                    <h4 class="position">Undergraduate Intern</h4>
-                    <span class="location">Virtual</span>
-                </div>
-                <div class="job-meta">
-                    <span class="date">Jan 2021 - Mar 2021</span>
-                    <span class="dropdown-arrow" id="arrow-difuse">▼</span>
-                </div>
+        <div class="experience-entry">
+            <div class="experience-header">
+                <h3 class="company-name">Dartmouth DIFUSE (NSF-funded Project)</h3>
+                <span class="experience-date">Jan 2021 - Mar 2021</span>
             </div>
-            <div class="job-description" id="details-difuse">
-                <ul>
-                    <li>Engineered R modules in Jupyter notebooks for academic courses serving 100+ students with adaptive elements for various proficiency levels</li>
-                </ul>
-            </div>
+            <h4 class="position">Undergraduate Intern</h4>
+            <p class="location">Virtual</p>
+            <ul class="experience-details">
+                <li>Engineered R modules in Jupyter notebooks for academic courses serving 100+ students with adaptive elements for various proficiency levels</li>
+            </ul>
         </div>
 
-        <div class="job-item">
-            <div class="job-header" onclick="toggleJobDetails('websensing')">
-                <div class="job-title-section">
-                    <h3 class="company-name">Web Sensing LLC</h3>
-                    <h4 class="position">Software Engineering Intern</h4>
-                    <span class="location">Hanover, NH</span>
-                </div>
-                <div class="job-meta">
-                    <span class="date">Aug 2020 - Dec 2020</span>
-                    <span class="dropdown-arrow" id="arrow-websensing">▼</span>
-                </div>
+        <div class="experience-entry">
+            <div class="experience-header">
+                <h3 class="company-name">Web Sensing LLC</h3>
+                <span class="experience-date">Aug 2020 - Dec 2020</span>
             </div>
-            <div class="job-description" id="details-websensing">
-                <ul>
-                    <li>Designed a C-based grammar parser that generates XML rules for hardware deployment, enhancing security against zero-day attacks</li>
-                </ul>
-            </div>
+            <h4 class="position">Software Engineering Intern</h4>
+            <p class="location">Hanover, NH</p>
+            <ul class="experience-details">
+                <li>Designed a C-based grammar parser that generates XML rules for hardware deployment, enhancing security against zero-day attacks</li>
+            </ul>
         </div>
     </section>
 
     <section class="resume-section">
         <h2 class="section-title">Research Experience</h2>
         
-        <div class="job-item">
-            <div class="job-header" onclick="toggleJobDetails('ibm')">
-                <div class="job-title-section">
-                    <h3 class="company-name">IBM Student Researcher</h3>
-                    <h4 class="position">Research Assistant</h4>
-                    <span class="location">New York, NY</span>
-                </div>
-                <div class="job-meta">
-                    <span class="date">March 2024 - Present</span>
-                    <span class="dropdown-arrow" id="arrow-ibm">▼</span>
-                </div>
+        <div class="experience-entry">
+            <div class="experience-header">
+                <h3 class="company-name">IBM Student Researcher</h3>
+                <span class="experience-date">March 2024 - Present</span>
             </div>
-            <div class="job-description" id="details-ibm">
-                <ul>
-                    <li>Collaborating with IBM researchers to investigate chunked state computation in Mamba-style models, optimizing memory efficiency and throughput while preserving state-space properties</li>
-                </ul>
-            </div>
+            <h4 class="position">Research Assistant</h4>
+            <p class="location">New York, NY</p>
+            <ul class="experience-details">
+                <li>Collaborating with IBM researchers to investigate chunked state computation in Mamba-style models, optimizing memory efficiency and throughput while preserving state-space properties</li>
+            </ul>
         </div>
 
-        <div class="job-item">
-            <div class="job-header" onclick="toggleJobDetails('ai-alignment')">
-                <div class="job-title-section">
-                    <h3 class="company-name">Columbia Artificial Intelligence Alignment Club</h3>
-                    <h4 class="position">Technical Fellow</h4>
-                    <span class="location">New York, NY</span>
-                </div>
-                <div class="job-meta">
-                    <span class="date">Jan 2025 - Present</span>
-                    <span class="dropdown-arrow" id="arrow-ai-alignment">▼</span>
-                </div>
+        <div class="experience-entry">
+            <div class="experience-header">
+                <h3 class="company-name">Columbia Artificial Intelligence Alignment Club</h3>
+                <span class="experience-date">Jan 2025 - Present</span>
             </div>
-            <div class="job-description" id="details-ai-alignment">
-                <ul>
-                    <li>Participating in weekly meetings focused on current research in AI safety and alignment</li>
-                    <li>Collaborating with club members to brainstorm and initiate research projects aimed at advancing AI alignment and improving member engagement and retention</li>
-                </ul>
-            </div>
+            <h4 class="position">Technical Fellow</h4>
+            <p class="location">New York, NY</p>
+            <ul class="experience-details">
+                <li>Participating in weekly meetings focused on current research in AI safety and alignment</li>
+                <li>Collaborating with club members to brainstorm and initiate research projects aimed at advancing AI alignment and improving member engagement and retention</li>
+            </ul>
         </div>
 
-        <div class="job-item">
-            <div class="job-header" onclick="toggleJobDetails('anacker')">
-                <div class="job-title-section">
-                    <h3 class="company-name">Columbia University, Anacker Lab</h3>
-                    <h4 class="position">Research Assistant</h4>
-                    <span class="location">New York, NY</span>
-                </div>
-                <div class="job-meta">
-                    <span class="date">Jan 2025 - May 2025</span>
-                    <span class="dropdown-arrow" id="arrow-anacker">▼</span>
-                </div>
+        <div class="experience-entry">
+            <div class="experience-header">
+                <h3 class="company-name">Columbia University, Anacker Lab</h3>
+                <span class="experience-date">Jan 2025 - May 2025</span>
             </div>
-            <div class="job-description" id="details-anacker">
-                <ul>
-                    <li>Leveraging machine learning and computer vision to analyze patterns of neuronal activity in mouse brains for predicting signs of stress susceptibility</li>
-                </ul>
-            </div>
+            <h4 class="position">Research Assistant</h4>
+            <p class="location">New York, NY</p>
+            <ul class="experience-details">
+                <li>Leveraging machine learning and computer vision to analyze patterns of neuronal activity in mouse brains for predicting signs of stress susceptibility</li>
+            </ul>
         </div>
 
-        <div class="job-item">
-            <div class="job-header" onclick="toggleJobDetails('cris')">
-                <div class="job-title-section">
-                    <h3 class="company-name">Columbia University, CRIS Lab</h3>
-                    <h4 class="position">Research Assistant</h4>
-                    <span class="location">New York, NY</span>
-                </div>
-                <div class="job-meta">
-                    <span class="date">Sep 2024 - May 2025</span>
-                    <span class="dropdown-arrow" id="arrow-cris">▼</span>
-                </div>
+        <div class="experience-entry">
+            <div class="experience-header">
+                <h3 class="company-name">Columbia University, CRIS Lab</h3>
+                <span class="experience-date">Sep 2024 - May 2025</span>
             </div>
-            <div class="job-description" id="details-cris">
-                <ul>
-                    <li>Researching how open-source LLMs structure and associate mono-semantic features within their embedding spaces to improve model interpretability</li>
-                </ul>
-            </div>
+            <h4 class="position">Research Assistant</h4>
+            <p class="location">New York, NY</p>
+            <ul class="experience-details">
+                <li>Researching how open-source LLMs structure and associate mono-semantic features within their embedding spaces to improve model interpretability</li>
+            </ul>
         </div>
 
-        <div class="job-item">
-            <div class="job-header" onclick="toggleJobDetails('dartmouth-mms')">
-                <div class="job-title-section">
-                    <h3 class="company-name">Dartmouth College Minds, Machines, and Society Group</h3>
-                    <h4 class="position">Research Assistant</h4>
-                    <span class="location">Hanover, NH</span>
-                </div>
-                <div class="job-meta">
-                    <span class="date">Jul 2022 - Aug 2022</span>
-                    <span class="dropdown-arrow" id="arrow-dartmouth-mms">▼</span>
-                </div>
+        <div class="experience-entry">
+            <div class="experience-header">
+                <h3 class="company-name">Dartmouth College Minds, Machines, and Society Group</h3>
+                <span class="experience-date">Jul 2022 - Aug 2022</span>
             </div>
-            <div class="job-description" id="details-dartmouth-mms">
-                <ul>
-                    <li>Collaborated with a PhD student to train HuggingFace language model on datasets of news articles covering 5 diverse topics across 10 different media outlets to capture hidden media bias through masked-token prediction</li>
-                </ul>
-            </div>
+            <h4 class="position">Research Assistant</h4>
+            <p class="location">Hanover, NH</p>
+            <ul class="experience-details">
+                <li>Collaborated with a PhD student to train HuggingFace language model on datasets of news articles covering 5 diverse topics across 10 different media outlets to capture hidden media bias through masked-token prediction</li>
+            </ul>
         </div>
     </section>
 
     <section class="resume-section">
         <h2 class="section-title">Leadership and Service</h2>
         
-        <div class="job-item">
-            <div class="job-header" onclick="toggleJobDetails('egsc')">
-                <div class="job-title-section">
-                    <h3 class="company-name">Engineering Graduate Student Council</h3>
-                    <h4 class="position">Computer Science Department Representative</h4>
-                    <span class="location">New York, NY</span>
-                </div>
-                <div class="job-meta">
-                    <span class="date">Aug 2024 - Dec 2024</span>
-                    <span class="dropdown-arrow" id="arrow-egsc">▼</span>
-                </div>
+        <div class="experience-entry">
+            <div class="experience-header">
+                <h3 class="company-name">Engineering Graduate Student Council</h3>
+                <span class="experience-date">Aug 2024 - Dec 2024</span>
             </div>
-            <div class="job-description" id="details-egsc">
-                <ul>
-                    <li>Served as a liaison between students and faculty to improve academic and professional experiences</li>
-                </ul>
-            </div>
+            <h4 class="position">Computer Science Department Representative</h4>
+            <p class="location">New York, NY</p>
+            <ul class="experience-details">
+                <li>Served as a liaison between students and faculty to improve academic and professional experiences</li>
+            </ul>
         </div>
 
-        <div class="job-item">
-            <div class="job-header" onclick="toggleJobDetails('rugby')">
-                <div class="job-title-section">
-                    <h3 class="company-name">Dartmouth Women's Varsity Rugby Team</h3>
-                    <h4 class="position">Philanthropy Chair</h4>
-                    <span class="location">Hanover, NH</span>
-                </div>
-                <div class="job-meta">
-                    <span class="date">Aug 2019 - Jun 2022</span>
-                    <span class="dropdown-arrow" id="arrow-rugby">▼</span>
-                </div>
+        <div class="experience-entry">
+            <div class="experience-header">
+                <h3 class="company-name">Dartmouth Women's Varsity Rugby Team</h3>
+                <span class="experience-date">Aug 2019 - Jun 2022</span>
             </div>
-            <div class="job-description" id="details-rugby">
-                <ul>
-                    <li>Led a 5-person team to organize virtual and in-person 5Ks for Upper Valley crisis hotline, raising $2,000+ in donations</li>
-                </ul>
-            </div>
+            <h4 class="position">Philanthropy Chair</h4>
+            <p class="location">Hanover, NH</p>
+            <ul class="experience-details">
+                <li>Led a 5-person team to organize virtual and in-person 5Ks for Upper Valley crisis hotline, raising $2,000+ in donations</li>
+            </ul>
         </div>
 
-        <div class="job-item">
-            <div class="job-header" onclick="toggleJobDetails('tutoring')">
-                <div class="job-title-section">
-                    <h3 class="company-name">Dartmouth Academic Skills Center</h3>
-                    <h4 class="position">Computer Science: Introduction to Programming, Tutor</h4>
-                    <span class="location">Hanover, NH</span>
-                </div>
-                <div class="job-meta">
-                    <span class="date">Jan 2019 - Jan 2020</span>
-                    <span class="dropdown-arrow" id="arrow-tutoring">▼</span>
-                </div>
+        <div class="experience-entry">
+            <div class="experience-header">
+                <h3 class="company-name">Dartmouth Academic Skills Center</h3>
+                <span class="experience-date">Jan 2019 - Jan 2020</span>
             </div>
-            <div class="job-description" id="details-tutoring">
-                <ul>
-                    <li>Tutored students in Python through weekly meetings, improving technical skills and coding confidence</li>
-                </ul>
-            </div>
+            <h4 class="position">Computer Science: Introduction to Programming, Tutor</h4>
+            <p class="location">Hanover, NH</p>
+            <ul class="experience-details">
+                <li>Tutored students in Python through weekly meetings, improving technical skills and coding confidence</li>
+            </ul>
         </div>
     </section>
 
@@ -330,18 +247,3 @@
         </div>
     </section>
 </div>
-
-<script>
-function toggleJobDetails(jobId) {
-    const details = document.getElementById('details-' + jobId);
-    const arrow = document.getElementById('arrow-' + jobId);
-    
-    if (details.style.display === 'none' || details.style.display === '') {
-        details.style.display = 'block';
-        arrow.textContent = '▲';
-    } else {
-        details.style.display = 'none';
-        arrow.textContent = '▼';
-    }
-}
-</script>
