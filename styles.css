@@ -884,3 +884,243 @@ body {
         height: 20px;
     }
 }
+
+/* Compact Resume Styles */
+.resume-content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.resume-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #e9e9e7;
+}
+
+.resume-name {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #37352f;
+    margin-bottom: 0.8rem;
+    letter-spacing: 0.5px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    font-size: 0.9rem;
+    color: #787774;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.3rem 0.6rem;
+    background-color: #f7f6f3;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.contact-icon {
+    font-size: 0.9rem;
+}
+
+.resume-section {
+    margin-bottom: 1.8rem;
+}
+
+.section-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #37352f;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #e9e9e7;
+    padding-bottom: 0.4rem;
+}
+
+/* Left-aligned Education */
+.education-item {
+    margin-bottom: 1.2rem;
+    padding: 1rem;
+    background-color: #fafafa;
+    border-radius: 6px;
+    border-left: 3px solid #37352f;
+}
+
+.education-content {
+    text-align: left;
+}
+
+.education-entry {
+    margin-bottom: 1rem;
+}
+
+.education-entry:last-child {
+    margin-bottom: 0;
+}
+
+.institution-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #37352f;
+    margin: 0 0 0.3rem 0;
+}
+
+.degree {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #37352f;
+    margin: 0;
+}
+
+.coursework, .skills-content, .interests-content {
+    background-color: #f7f6f3;
+    padding: 0.8rem;
+    border-radius: 4px;
+    margin-top: 0.8rem;
+}
+
+.coursework p, .skills-content p, .interests-content p {
+    margin: 0;
+    color: #37352f;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+/* Compact Experience Items */
+.experience-item {
+    margin-bottom: 1rem;
+    border: 1px solid #e9e9e7;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.experience-header {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem;
+    background-color: #fafafa;
+    border-left: 3px solid #37352f;
+    transition: background-color 0.2s ease;
+}
+
+.experience-header:hover {
+    background-color: #f7f6f3;
+}
+
+.experience-title {
+    flex: 1;
+}
+
+.company-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #37352f;
+    margin: 0 0 0.3rem 0;
+}
+
+.position {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #37352f;
+    margin: 0 0 0.3rem 0;
+}
+
+.experience-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.3rem;
+    min-width: 120px;
+}
+
+.location {
+    color: #787774;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.date {
+    color: #787774;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.dropdown-arrow {
+    font-size: 0.8rem;
+    color: #37352f;
+    transition: transform 0.2s ease;
+    user-select: none;
+    margin-top: 0.2rem;
+}
+
+.experience-details {
+    display: none;
+    padding: 0 1rem 1rem 1rem;
+    background-color: #fafafa;
+    border-top: 1px solid #e9e9e7;
+}
+
+.experience-details ul {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.experience-details li {
+    margin-bottom: 0.4rem;
+    color: #37352f;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.experience-details li:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive adjustments for compact resume */
+@media (max-width: 768px) {
+    .resume-content {
+        padding: 0 1rem;
+    }
+    
+    .resume-name {
+        font-size: 1.8rem;
+    }
+    
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    .contact-item {
+        justify-content: center;
+        min-width: 180px;
+    }
+    
+    .experience-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.8rem;
+    }
+    
+    .experience-meta {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .experience-details {
+        padding: 0 0.8rem 0.8rem 0.8rem;
+    }
+}
